@@ -1,6 +1,6 @@
 # Fake Busters: Deepfake Detection Comparative Analysis 🛡️🤖
 
-## 📌 Project Overview (Work in Progress - ~75% Complete)
+## 📌 Project Overview (Work in Progress)
 Developed by the **Fake Busters** team at the University of Jeddah, this project presents a rigorous comparative study of five state-of-the-art architectures designed for Deepfake detection. [cite_start]While the framework and initial evaluations are established, further optimization and final cross-solution comparisons are ongoing[cite: 671, 763].
 
 ## 🔬 Collaborative Research & Methodology
