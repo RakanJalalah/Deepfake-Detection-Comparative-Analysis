@@ -1,26 +1,26 @@
-# Fake Busters: Deepfake Detection Comparative Analysis 🛡️🤖
+# Comparative Analysis of State-of-the-Art Deepfake Detection Frameworks 🛡️🤖
 
 ## 📌 Project Overview (Final Development Phase)
-Developed by the **Fake Busters** team at the University of Jeddah, this project presents a rigorous comparative study of five state-of-the-art architectures designed for Deepfake detection. The project is currently in its final stages, focusing on cross-model validation and comparative performance synthesis.
+This initiative, conducted at the University of Jeddah, presents a rigorous comparative evaluation of five distinct architectural frameworks designed for deepfake detection. The research focuses on addressing the "generalization gap"—the performance degradation of detection models when confronted with unseen, Out-Of-Domain (OOD) generative manipulations.
 
-## 🔬 Collaborative Research & Methodology
-Our team implemented a multi-faceted approach to evaluate different algorithmic vulnerabilities. We are benchmarking five distinct architectural strategies to ensure a comprehensive evaluation:
+## 🔬 Comparative Research Methodology
+The project executes a multi-faceted analysis, benchmarking four individual architectural solutions against a hybrid State-of-the-Art (SOA) baseline to ensure comprehensive coverage of various algorithmic vulnerabilities:
 
-1.  **SOA Baseline (ViT-CLIP):** Evaluating hybrid architectures as a benchmark for generalizable face forgery detection.
-2.  **Dual-Branch Spatial & Spectral Analysis:** Combining ConvNeXt V2 with Patch-wise FFT to detect both visual and frequency-domain artifacts.
-3.  **Unsupervised Anomaly Detection:** Implementing Deep Autoencoders to identify manipulated deviations from pristine data distributions.
-4.  **Hybrid Feature Fusion:** Fusing spatial, frequency, and texture features evaluated by classical ML models (RBF SVM).
-5.  **Mesoscopic Architecture Analysis:** Targeting intermediate-level visual artifacts and blending boundaries introduced by generative models.
+* **SOA Baseline (Hybrid ViT-CLIP):** An architecture integrating GenD Layer Normalization and D³ discrepancy learning for enhanced semantic and structural analysis.
+* **Solution #1 (ConvNeXt V2 + FFT):** A dual-branch model utilizing Patch-wise FFT to analyze both spatial artifacts and spectral frequency patterns.
+* **Solution #2 (Autoencoder Anomaly Detection):** An unsupervised approach trained on pristine data to identify manipulated samples through reconstruction error analysis.
+* **Solution #3 (Hybrid Feature Fusion):** A classical machine learning pipeline fusing spatial, frequency, and texture features evaluated via RBF SVM.
+* **Solution #4 (MesoInception-4):** A deep CNN architecture specifically engineered to target mesoscopic blending boundaries and texture degradation.
 
-## 📊 Project Status & Milestones
-* **Data Engineering:** Completed processing over 360,000 localized facial images from FF++ and Celeb-DF v2.
-* **Pipeline Integration:** Standardized GPU-accelerated extraction with video-level stratification is fully operational.
-* **Current Focus:** Executing final comparative inference and fine-tuning model hyperparameters for peak generalization.
+## 📊 Technical Status & Milestones
+* **Data Engineering:** Successfully processed a standardized master dataset of 360,000+ localized facial images derived from FF++ and Celeb-DF v2.
+* **Pipeline Integrity:** Implemented a GPU-accelerated extraction pipeline with video-level stratification to eliminate temporal data leakage.
+* **Current Status:** The project is in the final optimization and synthesis phase. Preliminary empirical results demonstrate high efficacy across the evaluated architectures.
 
-## 📂 Featured Documentation
-* 📄 **[FakeBusters_Progress_Report.pdf](./FakeBusters%20(3).pdf)**: The current technical manuscript detailing our research, methodology, and preliminary comparative analysis.
+## 📂 Documentation
+* 📄 **[Deepfake_Detection_Report.pdf](./Deepfake_Detection_Report.pdf)**: The comprehensive technical manuscript detailing research methodology, literature review, and performance metrics.
 
-## 🛠️ Tech Stack
-* **Deep Learning:** PyTorch, TensorFlow, Keras.
-* **Architectures:** ViT, CNNs, Inception Modules, Autoencoders.
-* **Forensics:** Computer Vision, Digital Forensics, Frequency Domain Analysis.
+## 🛠️ Technical Stack
+* **Frameworks:** PyTorch, TensorFlow, Keras.
+* **Architectures:** Vision Transformers (ViT), CNNs, Inception Modules, Autoencoders.
+* **Domains:** Computer Vision, Digital Forensics, Signal Processing (FFT/DCT).
