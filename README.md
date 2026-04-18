@@ -1,4 +1,4 @@
-# Comparative Analysis of State-of-the-Art Deepfake Detection Frameworks 🛡️🤖
+# Comparative Analysis of Deepfake Detection Frameworks 🛡️🤖
 
 ## 📌 Project Overview (Final Development Phase)
 This initiative, conducted at the University of Jeddah, presents a rigorous comparative evaluation of five distinct architectural frameworks designed for deepfake detection. The research focuses on addressing the "generalization gap"—the performance degradation of detection models when confronted with unseen, Out-Of-Domain (OOD) generative manipulations.
