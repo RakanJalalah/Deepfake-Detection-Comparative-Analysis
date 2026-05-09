@@ -20,9 +20,8 @@ The project benchmarked four individual solutions against a hybrid **State-of-th
 
 ## 📂 Documentation
 Based on the final project submission, here are the core documents:
-* 📄 **FakeBusters (3).pdf**: The comprehensive technical manuscript detailing research methodology and empirical metrics.
-* 📊 **FakeBusters_Presentaion.pdf**: Final presentation including the performance scoreboard and comparative analysis.
-
+* 📄 [FakeBusters_Midterm_Report.pdf](./FakeBusters_Midterm_Report%20.pdf) - The comprehensive technical manuscript detailing research methodology and empirical metrics.
+* 📊 [FakeBusters_Presentaion.pdf](./FakeBusters_Presentaion.pdf) - Final presentation including the performance scoreboard and comparative analysis.
 ## 🛠️ Technical Stack
 * **Frameworks:** PyTorch 2.x, TensorFlow 2.x, Keras.
 * **Architectures:** Vision Transformers (ViT), ConvNeXt V2, MesoInception-4, RBF SVM.
